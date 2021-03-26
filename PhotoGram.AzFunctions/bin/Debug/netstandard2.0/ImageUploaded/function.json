@@ -1,0 +1,14 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.29",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "blobTrigger",
+      "path": "images/{name}",
+      "name": "inputBlob"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/PhotoGram.AzFunctions.dll",
+  "entryPoint": "PhotoGram.AzFunctions.ImageUploaded.Run"
+}

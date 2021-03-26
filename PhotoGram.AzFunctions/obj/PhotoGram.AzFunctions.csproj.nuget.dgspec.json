@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.AzFunctions\\PhotoGram.AzFunctions.csproj": {}
+  },
+  "projects": {
+    "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.AzFunctions\\PhotoGram.AzFunctions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.AzFunctions\\PhotoGram.AzFunctions.csproj",
+        "projectName": "PhotoGram.AzFunctions",
+        "projectPath": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.AzFunctions\\PhotoGram.AzFunctions.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.AzFunctions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Common\\PhotoGram.Common.csproj": {
+                "projectPath": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Common\\PhotoGram.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Storage": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[1.0.29, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Common\\PhotoGram.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Common\\PhotoGram.Common.csproj",
+        "projectName": "PhotoGram.Common",
+        "projectPath": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Common\\PhotoGram.Common.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Model\\PhotoGram.Model.csproj": {
+                "projectPath": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Model\\PhotoGram.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
+            "CoreCompat.System.Drawing.v2": {
+              "target": "Package",
+              "version": "[5.2.0-preview1-r131, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Model\\PhotoGram.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Model\\PhotoGram.Model.csproj",
+        "projectName": "PhotoGram.Model",
+        "projectPath": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Model\\PhotoGram.Model.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "E:\\autre\\HEXAGONE\\API\\PROJECT EVALUATION\\PROJECT_BILEL_BOUMNIJEL_PHOTGRAM\\PhotoGram.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

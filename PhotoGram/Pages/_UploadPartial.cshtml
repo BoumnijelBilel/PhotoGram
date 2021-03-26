@@ -1,0 +1,10 @@
+@using Microsoft.AspNetCore.Identity
+@using CorePhotoGram.Data
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+}
+<li><a asp-page="/Upload">Publier une publication</a></li>
+<li><a asp-page="/About" >A Propos </a></li>

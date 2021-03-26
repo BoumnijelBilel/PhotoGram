@@ -1,0 +1,24 @@
+﻿@page
+@model CorePhotoGram.Pages.UploadSuccessModel
+@{
+    ViewData["Title"] = "UploadSuccess";
+}
+
+<h2>Téléchargement reçu</h2>
+<h3>
+    Le fichier est en cours de traitement, il sera disponible sous peu
+</h3>
+
+<div class="row">
+    <div class="col-md-2 success-text">Déposer</div>
+    <div class="col-md-3 success-text">@Model.FileName</div>
+</div>
+<div class="row">
+    <div class="col-md-2 success-text">Reçu</div>
+    <div class="col-md-3 success-text">@Model.Time</div>
+</div>
+
+<br /><br />
+      <a class="btn btn-primary" href="/Index">Retourner à PHOTOGRAM</a>
+
+
