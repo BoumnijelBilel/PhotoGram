@@ -26,7 +26,7 @@ namespace CorePhotoGram.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "AspNetTokens",
+                name: "AspNetUserTokens",
                 columns: table => new
                 {
                     UserId = table.Column<string>(nullable: false),
